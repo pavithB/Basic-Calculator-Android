@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.pavithbuddhima.calculatortest1.MainActivity"
+android:rowCount="8"
+android:columnCount="4"
+    android:layout_centerHorizontal="true"
+    android:background="#003333"
+>
+
+
+<TextView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="4"
+        android:id="@+id/display"
+        android:textSize="40dp"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+    android:textColor="#ffffff"
+
+        />
+
+
+    <Button
+        android:id="@+id/btndel"
+        android:layout_height="85dp"
+        android:layout_width="170dp"
+        android:text="del"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:textSize="20dp"
+
+        android:onClick="setbtndel"
+
+
+
+        />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:text="Button"-->
+        <!--android:layout_column="2"-->
+        <!--android:layout_row="3"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:text="Button"-->
+        <!--android:layout_column="3"-->
+        <!--android:layout_row="3"/>-->
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="8"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:onClick="setbtn8"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btndevide"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="/"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:onClick="setbtndevide"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="4"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:onClick="setbtn4"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="5"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:onClick="setbtn5"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="6"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:onClick="setbtn6"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnmultiply"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="*"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:onClick="setbtnmultiply"
+        android:textSize="20dp"
+
+    />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="3"
+        android:layout_column="2"
+        android:layout_row="6"
+        android:onClick="setbtn3"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="-"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:textSize="20dp"
+        android:onClick="setbtnsub"
+
+        />
+
+    <Button
+        android:id="@+id/btndot"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="."
+        android:layout_column="0"
+        android:layout_row="7"
+        android:onClick="setbtndot"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="0"
+        android:layout_column="1"
+        android:layout_row="7"
+        android:onClick="setbtn0"
+        android:textSize="20dp"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="="
+        android:layout_column="2"
+        android:layout_row="7"
+        android:textSize="20dp"
+        android:onClick="setbtnequal"
+        
+
+        />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="+"
+        android:layout_column="3"
+        android:layout_row="7"
+        android:onClick="setbtnadd"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="7"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:onClick="setbtn7"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="9"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:onClick="setbtn9"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="2"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:onClick="setbtn2"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_height="85dp"
+        android:layout_width="85dp"
+        android:text="1"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:onClick="setbtn1"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_height="85dp"
+        android:text="C"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="setbtnclear"
+        android:textSize="20dp"
+        />
+
+
+</GridLayout>
