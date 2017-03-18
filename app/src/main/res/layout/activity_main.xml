@@ -12,7 +12,7 @@ tools:context="com.example.pavithbuddhima.calculatortest1.MainActivity"
 android:rowCount="8"
 android:columnCount="4"
     android:layout_centerHorizontal="true"
-    android:background="#003333"
+    android:background="#292929"
 >
 
 
