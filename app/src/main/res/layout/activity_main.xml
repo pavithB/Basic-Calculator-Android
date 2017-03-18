@@ -55,9 +55,9 @@
         android:layout_width="88dp"
         android:text="8"
         android:onClick="setbtn8"
-        android:textSize="20dp"
+        android:textSize="30dp"
 
-        android:textColor="#009999"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintBaseline_creator="1"
@@ -90,8 +90,8 @@
         android:layout_width="88dp"
         android:text="4"
         android:onClick="setbtn4"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
 
@@ -112,8 +112,8 @@
         android:layout_width="88dp"
         android:text="5"
         android:onClick="setbtn5"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -130,8 +130,8 @@
         android:layout_width="88dp"
         android:text="6"
         android:onClick="setbtn6"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -166,8 +166,8 @@
         android:layout_width="88dp"
         android:text="3"
         android:onClick="setbtn3"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
 
@@ -279,8 +279,8 @@
         android:layout_width="88dp"
         android:text="7"
         android:onClick="setbtn7"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -300,8 +300,8 @@
         android:layout_width="88dp"
         android:text="9"
         android:onClick="setbtn9"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -318,8 +318,8 @@
         android:layout_width="89dp"
         android:text="2"
         android:onClick="setbtn2"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -336,8 +336,8 @@
         android:layout_width="88dp"
         android:text="1"
         android:onClick="setbtn1"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
