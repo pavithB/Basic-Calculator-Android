@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+//    public void setbtnclear(View v){
+//        display.setText("");
+//
+//    }
     public void setbtnclear(View v){
-        display.setText("");
-
-    }
-    public void setbtndel(View v){
 
 
         switch (display.getText().toString()) {
