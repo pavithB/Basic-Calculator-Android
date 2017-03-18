@@ -204,7 +204,7 @@
         android:text="."
         android:onClick="setbtndot"
         android:textSize="40dp"
-        android:textColor="#009999"
+        android:textColor="#ffffff"
         android:background="#151515"
 
         tools:layout_constraintTop_creator="1"
@@ -221,8 +221,8 @@
         android:layout_width="188dp"
         android:text="0"
         android:onClick="setbtn0"
-        android:textSize="20dp"
-        android:textColor="#009999"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
         android:background="#151515"
 
 

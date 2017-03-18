@@ -1,5 +1,6 @@
 package com.example.pavithbuddhima.calculatortest1;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,46 +48,57 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setbtn0(View v){
+        display.setTextColor(Color.WHITE);
         display.append("0");
 
     }
     public void setbtn1(View v){
+        display.setTextColor(Color.WHITE);
         display.append("1");
 
     }
     public void setbtn2(View v){
+        display.setTextColor(Color.WHITE);
         display.append("2");
 
     }
     public void setbtn3(View v){
+        display.setTextColor(Color.WHITE);
         display.append("3");
 
     }
     public void setbtn4(View v){
+        display.setTextColor(Color.WHITE);
         display.append("4");
 
     }
     public void setbtn5(View v){
+        display.setTextColor(Color.WHITE);
         display.append("5");
 
     }
     public void setbtn6(View v){
+        display.setTextColor(Color.WHITE);
         display.append("6");
 
     }
     public void setbtn7(View v){
+        display.setTextColor(Color.WHITE);
         display.append("7");
 
     }
     public void setbtn8(View v){
+        display.setTextColor(Color.WHITE);
         display.append("8");
 
     }
     public void setbtn9(View v){
+        display.setTextColor(Color.WHITE);
         display.append("9");
 
     }
     public void setbtndot(View v){
+        display.setTextColor(Color.WHITE);
         display.append(".");
 
     }
@@ -182,6 +194,8 @@ public class MainActivity extends AppCompatActivity {
 
                 break;
             default:
+
+                display.setTextColor(Color.rgb(0,229,255));
 
         sValue = display.getText().toString();
 
