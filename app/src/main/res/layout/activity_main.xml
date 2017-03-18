@@ -41,6 +41,8 @@ android:columnCount="4"
         android:layout_row="3"
         android:layout_columnSpan="2"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         android:onClick="setbtndel"
 
@@ -71,6 +73,9 @@ android:columnCount="4"
         android:onClick="setbtn8"
         android:textSize="20dp"
 
+        android:textColor="#009999"
+        android:background="#000000"
+
         />
 
     <Button
@@ -82,6 +87,8 @@ android:columnCount="4"
         android:layout_row="4"
         android:onClick="setbtndevide"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -94,6 +101,8 @@ android:columnCount="4"
         android:layout_row="5"
         android:onClick="setbtn4"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
 
         />
@@ -107,6 +116,8 @@ android:columnCount="4"
         android:layout_row="5"
         android:onClick="setbtn5"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -119,6 +130,8 @@ android:columnCount="4"
         android:layout_row="5"
         android:onClick="setbtn6"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -131,6 +144,8 @@ android:columnCount="4"
         android:layout_row="5"
         android:onClick="setbtnmultiply"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
     />
 
@@ -143,6 +158,8 @@ android:columnCount="4"
         android:layout_row="6"
         android:onClick="setbtn3"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
 
         />
@@ -156,6 +173,8 @@ android:columnCount="4"
         android:layout_row="6"
         android:textSize="20dp"
         android:onClick="setbtnsub"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -168,6 +187,8 @@ android:columnCount="4"
         android:layout_row="7"
         android:onClick="setbtndot"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -180,6 +201,8 @@ android:columnCount="4"
         android:layout_row="7"
         android:onClick="setbtn0"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
 
 
@@ -194,6 +217,8 @@ android:columnCount="4"
         android:layout_row="7"
         android:textSize="20dp"
         android:onClick="setbtnequal"
+        android:textColor="#009999"
+        android:background="#000000"
         
 
         />
@@ -207,6 +232,8 @@ android:columnCount="4"
         android:layout_row="7"
         android:onClick="setbtnadd"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -219,6 +246,8 @@ android:columnCount="4"
         android:layout_row="4"
         android:onClick="setbtn7"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -231,6 +260,8 @@ android:columnCount="4"
         android:layout_row="4"
         android:onClick="setbtn9"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -243,6 +274,8 @@ android:columnCount="4"
         android:layout_row="6"
         android:onClick="setbtn2"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -255,6 +288,8 @@ android:columnCount="4"
         android:layout_row="6"
         android:onClick="setbtn1"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
 
         />
 
@@ -268,6 +303,8 @@ android:columnCount="4"
         android:layout_gravity="fill_horizontal"
         android:onClick="setbtnclear"
         android:textSize="20dp"
+        android:textColor="#009999"
+        android:background="#000000"
         />
 
 
