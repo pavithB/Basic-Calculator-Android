@@ -358,14 +358,31 @@
         android:textColor="#EF6C00"
         android:textStyle="bold"
         android:background="@drawable/button"
-        android:layout_width="188dp"
+        android:layout_width="88dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn8" />
+        app:layout_constraintBottom_toTopOf="@+id/btn8"
+        app:layout_constraintRight_toLeftOf="@+id/btndel"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/btndel"
+        android:layout_width="85dp"
+        android:layout_height="84dp"
+        android:text="del"
+        android:textSize="20dp"
+        android:onClick="setBtndel"
+        android:textColor="#009999"
+        android:background="@drawable/button"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn8"
+        app:layout_constraintRight_toLeftOf="@+id/btnmultiply"
+        android:layout_marginRight="12dp" />
 
 
 </android.support.constraint.ConstraintLayout>

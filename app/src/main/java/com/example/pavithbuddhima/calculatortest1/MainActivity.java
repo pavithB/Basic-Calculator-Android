@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btnsub =(Button) findViewById(R.id.btnsub);
         btnmultiply =(Button) findViewById(R.id.btnmultiply);
         btndevide =(Button) findViewById(R.id.btndevide);
-//        btndel =(Button) findViewById(R.id.btndel);
+        btndel =(Button) findViewById(R.id.btndel);
         btnclear =(Button) findViewById(R.id.btnclear);
         btndot =(Button) findViewById(R.id.btndot);
         btnequal =(Button) findViewById(R.id.btnequal);
@@ -103,10 +103,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    public void setbtnclear(View v){
-//        display.setText("");
-//
-//    }
+    public void setBtndel(View v){
+        display.setTextColor(Color.WHITE);
+        display.setText("");
+
+    }
     public void setbtnclear(View v){
 
 
