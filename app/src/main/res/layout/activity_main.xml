@@ -13,8 +13,8 @@
 
 
     <TextView
-        android:layout_width="388dp"
-        android:layout_height="87dp"
+        android:layout_width="387dp"
+        android:layout_height="78dp"
         android:text=""
         android:id="@+id/display"
         android:textSize="40dp"
@@ -25,8 +25,16 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btndevide"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintVertical_bias="0.48" />
 
 
     <!--<Button-->
@@ -54,23 +62,27 @@
 
         tools:layout_constraintBaseline_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteY="217dp"
-        tools:layout_editor_absoluteX="104dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintRight_toLeftOf="@+id/btn9"
+        android:layout_marginRight="8dp" />
 
     <Button
         android:id="@+id/btndevide"
-        android:layout_height="86dp"
-        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:layout_width="88dp"
         android:text="/"
         android:onClick="setbtndevide"
         android:textSize="20dp"
         android:textColor="#009999"
-        android:background="#000000"
+        android:background="@drawable/button"
 
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteY="119dp"
-        tools:layout_editor_absoluteX="296dp" />
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnsub"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/btn4"
@@ -86,8 +98,13 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="314dp" />
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn5"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.714" />
 
     <Button
         android:id="@+id/btn5"
@@ -102,8 +119,10 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="314dp" />
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintRight_toLeftOf="@+id/btn6"
+        android:layout_marginRight="8dp" />
 
     <Button
         android:id="@+id/btn6"
@@ -118,8 +137,10 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="314dp" />
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintRight_toLeftOf="@+id/btnadd"
+        android:layout_marginRight="9dp" />
 
     <Button
         android:id="@+id/btnmultiply"
@@ -129,13 +150,15 @@
         android:onClick="setbtnmultiply"
         android:textSize="20dp"
         android:textColor="#009999"
-        android:background="#000000"
+        android:background="@drawable/button"
 
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="119dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn9"
+        app:layout_constraintRight_toLeftOf="@+id/btndevide"
+        android:layout_marginRight="8dp" />
 
     <Button
         android:id="@+id/btn3"
@@ -151,8 +174,10 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="411dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btndot"
+        app:layout_constraintRight_toLeftOf="@+id/btnequal"
+        android:layout_marginRight="8dp" />
 
     <Button
         android:id="@+id/btnsub"
@@ -162,13 +187,15 @@
         android:textSize="20dp"
         android:onClick="setbtnsub"
         android:textColor="#009999"
-        android:background="#000000"
+        android:background="@drawable/button"
 
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteY="217dp"
-        tools:layout_editor_absoluteX="296dp" />
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnadd"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/btndot"
@@ -183,13 +210,15 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteY="502dp"
-        tools:layout_editor_absoluteX="200dp" />
+        app:layout_constraintRight_toLeftOf="@+id/btnequal"
+        android:layout_marginRight="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btn0"
-        android:layout_height="84dp"
-        android:layout_width="183dp"
+        android:layout_height="85dp"
+        android:layout_width="188dp"
         android:text="0"
         android:onClick="setbtn0"
         android:textSize="20dp"
@@ -200,12 +229,16 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="503dp" />
+        android:layout_marginLeft="13dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintRight_toLeftOf="@+id/btndot"
+        android:layout_marginRight="8dp" />
 
     <Button
         android:id="@+id/btnequal"
-        android:layout_height="181dp"
+        android:layout_height="178dp"
         android:layout_width="88dp"
         android:text="="
         android:textSize="20dp"
@@ -217,10 +250,10 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="296dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="11dp"
-        tools:layout_editor_absoluteY="411dp" />
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/btnadd"
@@ -230,13 +263,15 @@
         android:onClick="setbtnadd"
         android:textSize="20dp"
         android:textColor="#009999"
-        android:background="#000000"
+        android:background="@drawable/button"
 
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="313dp" />
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnequal"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/btn7"
@@ -251,8 +286,13 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="217dp" />
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn8"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.8" />
 
     <Button
         android:id="@+id/btn9"
@@ -267,12 +307,14 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="217dp" />
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn6"
+        app:layout_constraintRight_toLeftOf="@+id/btnsub"
+        android:layout_marginRight="9dp" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_height="86dp"
+        android:layout_height="85dp"
         android:layout_width="89dp"
         android:text="2"
         android:onClick="setbtn2"
@@ -283,8 +325,10 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintRight_toLeftOf="@+id/btn3"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn0" />
 
     <Button
         android:id="@+id/btn1"
@@ -299,23 +343,30 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="411dp" />
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn0"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.8" />
 
     <Button
         android:id="@+id/btnclear"
-        android:layout_height="86dp"
+        android:layout_height="85dp"
         android:text="C"
         android:onClick="setbtnclear"
         android:textSize="20dp"
         android:textColor="#009999"
-        android:background="#000000"
-        android:layout_width="180dp"
+        android:background="@drawable/button"
+        android:layout_width="188dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="119dp" />
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn8" />
 
 
 </android.support.constraint.ConstraintLayout>
